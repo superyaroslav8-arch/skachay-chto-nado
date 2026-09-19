@@ -1,0 +1,266 @@
+[
+  {
+    "id": "telegram",
+    "name": "Telegram",
+    "developer": "Telegram FZ-LLC",
+    "category": "Мессенджеры",
+    "categories": ["Мессенджеры", "Популярное"],
+    "description": "Быстрый и безопасный мессенджер с облачным хранением, большими группами, каналами, ботами и поддержкой файлов до 2 ГБ.",
+    "shortDescription": "Быстрый и безопасный мессенджер с каналами и ботами",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/8/82/Telegram_logo.svg",
+    "platforms": ["iPhone", "iPad", "Android", "Web"],
+    "version": "11.x",
+    "size": "Зависит от платформы",
+    "rating": 4.7,
+    "isFree": true,
+    "isPopular": true,
+    "isNew": false,
+    "install": {
+      "iphone": {
+        "appStore": "https://apps.apple.com/app/telegram-messenger/id686449807",
+        "web": "https://web.telegram.org"
+      },
+      "android": {
+        "googlePlay": "https://play.google.com/store/apps/details?id=org.telegram.messenger",
+        "officialSite": "https://telegram.org/android",
+        "web": "https://web.telegram.org"
+      },
+      "web": "https://web.telegram.org"
+    },
+    "updated": "2026-09"
+  },
+  {
+    "id": "whatsapp",
+    "name": "WhatsApp",
+    "developer": "Meta Platforms, Inc.",
+    "category": "Мессенджеры",
+    "categories": ["Мессенджеры", "Популярное"],
+    "description": "Самый популярный мессенджер в мире. End-to-end шифрование, голосовые и видеозвонки, группы.",
+    "shortDescription": "Популярный мессенджер с end-to-end шифрованием",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg",
+    "platforms": ["iPhone", "iPad", "Android", "Web"],
+    "rating": 4.5,
+    "isFree": true,
+    "isPopular": true,
+    "install": {
+      "iphone": {
+        "appStore": "https://apps.apple.com/app/whatsapp-messenger/id310633997",
+        "web": "https://web.whatsapp.com"
+      },
+      "android": {
+        "googlePlay": "https://play.google.com/store/apps/details?id=com.whatsapp",
+        "web": "https://web.whatsapp.com"
+      },
+      "web": "https://web.whatsapp.com"
+    },
+    "updated": "2026-09"
+  },
+  {
+    "id": "youtube",
+    "name": "YouTube",
+    "developer": "Google LLC",
+    "category": "Видео",
+    "categories": ["Видео", "Популярное"],
+    "description": "Официальное приложение YouTube для просмотра видео, Shorts и подкастов.",
+    "shortDescription": "Видеохостинг №1 в мире",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg",
+    "platforms": ["iPhone", "iPad", "Android", "Web"],
+    "rating": 4.6,
+    "isFree": true,
+    "isPopular": true,
+    "install": {
+      "iphone": {
+        "appStore": "https://apps.apple.com/app/youtube-watch-listen-stream/id544007664",
+        "web": "https://www.youtube.com"
+      },
+      "android": {
+        "googlePlay": "https://play.google.com/store/apps/details?id=com.google.android.youtube",
+        "web": "https://www.youtube.com"
+      },
+      "web": "https://www.youtube.com"
+    },
+    "updated": "2026-09"
+  },
+  {
+    "id": "instagram",
+    "name": "Instagram",
+    "developer": "Meta Platforms, Inc.",
+    "category": "Социальные сети",
+    "categories": ["Социальные сети", "Популярное"],
+    "description": "Фото и видео, Reels, Stories, Direct.",
+    "shortDescription": "Фото, видео, Reels и Stories",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg",
+    "platforms": ["iPhone", "iPad", "Android", "Web"],
+    "rating": 4.4,
+    "isFree": true,
+    "isPopular": true,
+    "install": {
+      "iphone": {
+        "appStore": "https://apps.apple.com/app/instagram/id389801252",
+        "web": "https://www.instagram.com"
+      },
+      "android": {
+        "googlePlay": "https://play.google.com/store/apps/details?id=com.instagram.android",
+        "web": "https://www.instagram.com"
+      },
+      "web": "https://www.instagram.com"
+    },
+    "updated": "2026-09"
+  },
+  {
+    "id": "tiktok",
+    "name": "TikTok",
+    "developer": "ByteDance Ltd.",
+    "category": "Социальные сети",
+    "categories": ["Социальные сети", "Видео", "Популярное"],
+    "description": "Короткие видео, тренды, музыка и развлечения.",
+    "shortDescription": "Короткие видео и тренды",
+    "icon": "https://upload.wikimedia.org/wikipedia/en/a/a9/TikTok_logo.svg",
+    "platforms": ["iPhone", "iPad", "Android", "Web"],
+    "rating": 4.5,
+    "isFree": true,
+    "isPopular": true,
+    "install": {
+      "iphone": {
+        "appStore": "https://apps.apple.com/app/tiktok/id835599320",
+        "web": "https://www.tiktok.com"
+      },
+      "android": {
+        "googlePlay": "https://play.google.com/store/apps/details?id=com.zhiliaoapp.musically",
+        "web": "https://www.tiktok.com"
+      },
+      "web": "https://www.tiktok.com"
+    },
+    "updated": "2026-09"
+  },
+  {
+    "id": "chatgpt",
+    "name": "ChatGPT",
+    "developer": "OpenAI",
+    "category": "Искусственный интеллект",
+    "categories": ["Искусственный интеллект", "Популярное", "Новинки"],
+    "description": "Официальное приложение ChatGPT от OpenAI.",
+    "shortDescription": "Официальный ИИ-ассистент от OpenAI",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/0/04/ChatGPT_logo.svg",
+    "platforms": ["iPhone", "iPad", "Android", "Web"],
+    "rating": 4.8,
+    "isFree": true,
+    "isPopular": true,
+    "isNew": true,
+    "install": {
+      "iphone": {
+        "appStore": "https://apps.apple.com/app/chatgpt/id6448311069",
+        "web": "https://chatgpt.com"
+      },
+      "android": {
+        "googlePlay": "https://play.google.com/store/apps/details?id=com.openai.chatgpt",
+        "web": "https://chatgpt.com"
+      },
+      "web": "https://chatgpt.com"
+    },
+    "updated": "2026-09"
+  },
+  {
+    "id": "minecraft",
+    "name": "Minecraft",
+    "developer": "Mojang Studios / Microsoft",
+    "category": "Игры",
+    "categories": ["Игры", "Популярное"],
+    "description": "Легендарная песочница. Официальные версии доступны в магазинах приложений (платные).",
+    "shortDescription": "Легендарная игра-песочница",
+    "icon": "https://upload.wikimedia.org/wikipedia/en/5/51/Minecraft_cover.png",
+    "platforms": ["iPhone", "iPad", "Android"],
+    "rating": 4.5,
+    "isFree": false,
+    "isPopular": true,
+    "install": {
+      "iphone": {
+        "appStore": "https://apps.apple.com/app/minecraft/id479516143",
+        "note": "Платное приложение. Бесплатная легальная установка недоступна."
+      },
+      "android": {
+        "googlePlay": "https://play.google.com/store/apps/details?id=com.mojang.minecraftpe",
+        "note": "Платное приложение. Бесплатная легальная установка недоступна."
+      }
+    },
+    "updated": "2026-09"
+  },
+  {
+    "id": "spotify",
+    "name": "Spotify",
+    "developer": "Spotify AB",
+    "category": "Музыка",
+    "categories": ["Музыка", "Популярное"],
+    "description": "Стриминг музыки, подкастов и аудиокниг.",
+    "shortDescription": "Музыка и подкасты онлайн",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+    "platforms": ["iPhone", "iPad", "Android", "Web"],
+    "rating": 4.6,
+    "isFree": true,
+    "isPopular": true,
+    "install": {
+      "iphone": {
+        "appStore": "https://apps.apple.com/app/spotify-music-and-podcasts/id324684580",
+        "web": "https://open.spotify.com"
+      },
+      "android": {
+        "googlePlay": "https://play.google.com/store/apps/details?id=com.spotify.music",
+        "web": "https://open.spotify.com"
+      },
+      "web": "https://open.spotify.com"
+    },
+    "updated": "2026-09"
+  },
+  {
+    "id": "signal",
+    "name": "Signal",
+    "developer": "Signal Foundation",
+    "category": "Мессенджеры",
+    "categories": ["Мессенджеры", "Безопасность"],
+    "description": "Максимально приватный мессенджер с открытым исходным кодом.",
+    "shortDescription": "Максимальная приватность и шифрование",
+    "icon": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Signal-Logo.svg",
+    "platforms": ["iPhone", "iPad", "Android", "Web"],
+    "rating": 4.7,
+    "isFree": true,
+    "install": {
+      "iphone": {
+        "appStore": "https://apps.apple.com/app/signal-private-messenger/id874139669",
+        "web": "https://signal.org"
+      },
+      "android": {
+        "googlePlay": "https://play.google.com/store/apps/details?id=org.thoughtcrime.securesms",
+        "officialSite": "https://signal.org/android/apk/",
+        "web": "https://signal.org"
+      },
+      "web": "https://signal.org"
+    },
+    "updated": "2026-09"
+  },
+  {
+    "id": "discord",
+    "name": "Discord",
+    "developer": "Discord Inc.",
+    "category": "Мессенджеры",
+    "categories": ["Мессенджеры", "Игры"],
+    "description": "Голосовые, текстовые и видеочаты для сообществ и геймеров.",
+    "shortDescription": "Чаты и голосовые каналы для сообществ",
+    "icon": "https://upload.wikimedia.org/wikipedia/en/9/98/Discord_logo.svg",
+    "platforms": ["iPhone", "iPad", "Android", "Web"],
+    "rating": 4.3,
+    "isFree": true,
+    "isPopular": true,
+    "install": {
+      "iphone": {
+        "appStore": "https://apps.apple.com/app/discord-talk-play-hang-out/id985746746",
+        "web": "https://discord.com/app"
+      },
+      "android": {
+        "googlePlay": "https://play.google.com/store/apps/details?id=com.discord",
+        "web": "https://discord.com/app"
+      },
+      "web": "https://discord.com/app"
+    },
+    "updated": "2026-09"
+  }
+]
