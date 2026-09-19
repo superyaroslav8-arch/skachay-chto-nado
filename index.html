@@ -3,50 +3,32 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>Скачай, что надо! — Каталог приложений и сайтов для iPhone, iPad и Android</title>
-  <meta name="description" content="Бесплатный каталог приложений и сайтов. Найди любое приложение, даже недоступное в App Store. Реальные способы установки и веб-версии." />
+  <title>Скачай, что надо!</title>
+  <meta name="description" content="Найди и открой любое приложение или сайт. Умный поиск." />
   <meta name="theme-color" content="#2563eb" />
-  <meta property="og:title" content="Скачай, что надо!" />
-  <meta property="og:description" content="Каталог приложений и сайтов с реальными способами доступа на iPhone, iPad и Android." />
-  <meta property="og:type" content="website" />
   <link rel="stylesheet" href="css/styles.css" />
   <link rel="icon" href="assets/logo.png" type="image/png" />
   <link rel="apple-touch-icon" href="assets/logo.png" />
 </head>
 <body>
-  <header class="header">
+  <header class="header minimal">
     <div class="header-inner">
       <a href="#/" class="logo">
-        <img src="assets/logo.png" alt="Скачай, что надо!" class="logo-img" width="40" height="40" />
+        <img src="assets/logo.png" alt="Логотип" class="logo-img" width="36" height="36" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex'">
+        <div class="logo-icon-fallback" style="display:none">↓</div>
         <span>Скачай, что надо!</span>
       </a>
-      <div class="device-badge" id="device-badge">Определяем устройство…</div>
-      <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Меню">☰</button>
-      <nav class="nav" id="nav">
-        <a href="#/" class="nav-link">Главная</a>
-        <a href="#/apps" class="nav-link">Приложения</a>
-        <a href="#/sites" class="nav-link">Сайты</a>
-        <a href="#/category/Игры" class="nav-link">Игры</a>
-        <a href="#/favorites" class="nav-link">Избранное</a>
-      </nav>
-      <button class="theme-toggle" id="theme-toggle" title="Сменить тему">🌙</button>
+      <div class="device-badge" id="device-badge">…</div>
+      <button class="theme-toggle" id="theme-toggle" title="Тема">🌙</button>
     </div>
   </header>
 
   <main id="main">
-    <div class="loading">Загружаем каталог…</div>
+    <div class="loading">Загрузка…</div>
   </main>
 
-  <footer class="footer">
-    <div class="footer-inner">
-      <div class="footer-logo">
-        <img src="assets/logo.png" alt="" width="32" height="32" />
-        <strong>Скачай, что надо!</strong>
-      </div>
-      <p>Бесплатный каталог. Без регистрации. Все ссылки — на официальные источники или проверенные веб-версии.</p>
-      <p class="footer-note">Мы не распространяем пиратские файлы и не обещаем установку Android-приложений на iPhone. Для приложений, недоступных в App Store, показываем легальные альтернативы (веб-версии, официальные магазины и т.д.).</p>
-      <p class="footer-copy">© 2026 · Каталог обновляется · Данные из JSON</p>
-    </div>
+  <footer class="footer minimal-footer">
+    <p>Бесплатно · Без регистрации · Только официальные источники и веб-версии</p>
   </footer>
 
   <script src="js/app.js"></script>
