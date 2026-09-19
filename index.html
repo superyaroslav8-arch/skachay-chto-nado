@@ -3,32 +3,31 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <title>Скачай, что надо! — Каталог приложений и игр для iPhone, iPad и Android</title>
-  <meta name="description" content="Большой каталог приложений и игр для iPhone, iPad и Android. Реальные способы установки: App Store, Google Play, веб-версии. Поиск, категории, избранное." />
+  <title>Скачай, что надо! — Каталог приложений и сайтов для iPhone, iPad и Android</title>
+  <meta name="description" content="Бесплатный каталог приложений и сайтов. Найди любое приложение, даже недоступное в App Store. Реальные способы установки и веб-версии." />
   <meta name="theme-color" content="#2563eb" />
   <meta property="og:title" content="Скачай, что надо!" />
-  <meta property="og:description" content="Удобный каталог приложений и игр с реальными способами установки на ваше устройство." />
+  <meta property="og:description" content="Каталог приложений и сайтов с реальными способами доступа на iPhone, iPad и Android." />
   <meta property="og:type" content="website" />
-  <meta property="og:locale" content="ru_RU" />
   <link rel="stylesheet" href="css/styles.css" />
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect fill='%232563eb' width='100' height='100' rx='20'/><text y='.9em' font-size='70' x='15'>📥</text></svg>" />
+  <link rel="icon" href="assets/logo.png" type="image/png" />
+  <link rel="apple-touch-icon" href="assets/logo.png" />
 </head>
 <body>
   <header class="header">
     <div class="header-inner">
       <a href="#/" class="logo">
-        <div class="logo-icon">📥</div>
+        <img src="assets/logo.png" alt="Скачай, что надо!" class="logo-img" width="40" height="40" />
         <span>Скачай, что надо!</span>
       </a>
       <div class="device-badge" id="device-badge">Определяем устройство…</div>
       <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Меню">☰</button>
       <nav class="nav" id="nav">
-        <a href="#/">Главная</a>
-        <a href="#/catalog">Каталог</a>
-        <a href="#/category/Игры">Игры</a>
-        <a href="#/category/Мессенджеры">Мессенджеры</a>
-        <a href="#/category/Искусственный%20интеллект">ИИ</a>
-        <a href="#/favorites">Избранное</a>
+        <a href="#/" class="nav-link">Главная</a>
+        <a href="#/apps" class="nav-link">Приложения</a>
+        <a href="#/sites" class="nav-link">Сайты</a>
+        <a href="#/category/Игры" class="nav-link">Игры</a>
+        <a href="#/favorites" class="nav-link">Избранное</a>
       </nav>
       <button class="theme-toggle" id="theme-toggle" title="Сменить тему">🌙</button>
     </div>
@@ -39,9 +38,15 @@
   </main>
 
   <footer class="footer">
-    <p><strong>Скачай, что надо!</strong> — бесплатный каталог с реальными ссылками на официальные источники.</p>
-    <p style="margin-top:8px;font-size:0.85rem">Мы не распространяем приложения самостоятельно. Все установки происходят через App Store, Google Play или официальные сайты разработчиков.</p>
-    <p style="margin-top:12px">© 2026 · Каталог обновляется · Данные загружаются из JSON</p>
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="assets/logo.png" alt="" width="32" height="32" />
+        <strong>Скачай, что надо!</strong>
+      </div>
+      <p>Бесплатный каталог. Без регистрации. Все ссылки — на официальные источники или проверенные веб-версии.</p>
+      <p class="footer-note">Мы не распространяем пиратские файлы и не обещаем установку Android-приложений на iPhone. Для приложений, недоступных в App Store, показываем легальные альтернативы (веб-версии, официальные магазины и т.д.).</p>
+      <p class="footer-copy">© 2026 · Каталог обновляется · Данные из JSON</p>
+    </div>
   </footer>
 
   <script src="js/app.js"></script>
